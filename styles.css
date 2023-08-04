@@ -1,0 +1,86 @@
+
+body {
+    font-family: rubik,helvetica,arial,sans-serif;
+    line-height: 1.6;
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    font-size: 36px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #773c1a;
+    color: #ffffff;
+  }
+  
+  ul {
+    
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  li {
+    margin-bottom: 10px;
+    color: greenyellow
+  }
+  
+  /* Navigation Styles */
+  #navbar {
+    background-color: #331c0c;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .nav-link:hover {
+    background-color: #a66236;
+  }
+  
+  /* Main Section Styles */
+  .main-section {
+    background-color: #f4e1cc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #773c1a;
+    border-radius: 5px;
+  }
+  
+  /* Code Block Styles */
+  code {
+    display: block;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: "Courier New", monospace;
+  }
+  
+  /* Python code highlighting */
+  code.language-python {
+    color: #3572A5;
+  }
+  
+  /* Links */
+  a {
+    color: #3572A5;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    header {
+      font-size: 28px;
+    }
+  }
+  

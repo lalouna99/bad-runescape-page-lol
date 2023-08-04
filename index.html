@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+
+    <nav id="navbar">
+
+<header>Introduction</header>
+<ul>
+      
+      <li>
+        <a class="nav-link" href="#Old_School_Runescape_Introduction">Old School Runescape Introduction</a>
+       
+        </li>
+
+       <li>
+            <a class="nav-link" href="#Combat">Combat</a>
+          </li>
+
+          <li>
+            <a class="nav-link" href="#Skilling">Skilling</a>
+          </li>
+
+          <li>
+            <a class="nav-link" href="#PvP">PvP</a>
+            </li>
+
+            <li>
+              <a class="nav-link" href="#Quests">Quests</a>
+              </li>
+
+              <li>
+                <a class="nav-link" href="#Runescape_style_Python_mini_fishing_game">Runescape style Python mini fishing game</a>
+                </li>
+
+        </ul>
+
+        </nav>
+
+<main id="main-doc">
+
+
+<section class="main-section" id="Old_School_Runescape_Introduction">
+        <header>Old School Runescape Introduction</header>
+  
+ <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Old_School_Runescape_Logo.png" id="logo"/>
+   
+
+        <p>
+          Old School RuneScape is a captivating and nostalgic MMORPG that takes players on a pixelated adventure down memory lane. </p>
+          <p>Do you love:</p>
+          <ul>
+            <li>Retro graphics</li>
+            <li>Nostalgia for the early 2000s-2010s</li>
+            <li>MMO</li>
+            <li>Classic gameplay</li>
+            <li>Medieval Fantasy Genre</li>
+            </ul>
+
+
+<p> Then you'll love Runescape. Set in the fantasy world of Gielinor, you'll embark on quests, slay monsters, train skills, and interact with a vibrant community of players.</p>
+
+
+<p> Whether you're a seasoned veteran or a newcomer, this blast from the past promises endless hours of fun and exploration. Get ready to grind, trade, and immerse yourself in the ultimate old-school gaming experience! 
+        </p>
+      </section>
+
+      <section class="main-section" id="Combat">
+        <header>Combat</header>
+        <p>
+          Combat in Old School RuneScape is a thrilling and action-packed experience! As a player, you'll engage in epic battles against a variety of monsters, NPCs, and other players. The combat system relies on a triangular approach, where each combat style (melee, ranged, and magic) has its strengths and weaknesses. You'll strategize and choose the best attack style for different foes. </p>
+<p>Gain experience and level up your combat skills to unlock powerful abilities and equipment. Brace yourself for intense boss fights, team-based PvP battles, and the thrill of landing that perfect hit! Whether you're battling dragons, demons, or dueling with friends, Old School RuneScape's combat will keep your heart pounding and adrenaline flowing!
+        </p>
+      </section>
+
+      <section class="main-section" id="Skilling">
+        <header>Skilling</header>
+        <p>Skilling in Old School RuneScape is like a relaxing and rewarding escape! Engage in various non-combat activities, from fishing and woodcutting to crafting and cooking. As you hone your skills, you'll unlock new abilities, access rare resources, and even make money along the way.</p>
+
+<p>The grind may be real, but the sense of accomplishment as you level up is unmatched! So, whether you're a master of all trades or a specialist in one, skilling in OSRS offers a laid-back yet fulfilling gameplay experience that keeps you coming back for more!</p>
+      </section>
+
+      <section class="main-section" id="PvP">
+        <header>PvP</header>
+        <p>PvP in Old School RuneScape is a wild and adrenaline-fueled showdown! Prepare for heated battles against other players in designated PvP areas like the Wilderness. Take on thrilling challenges, risking your loot and glory with each encounter. Whether you're a lone wolf or part of a fearsome clan, PvP offers a rush like no other.</p> 
+ <p>Outsmart your opponents, utilize special attack styles, and pull off epic combos to emerge victorious. But beware, danger lurks around every corner, as others may seek to claim your hard-earned riches. So, gear up, hone your skills, and dive into the chaotic world of player-versus-player combat in OSRS!
+        </p>
+      </section>
+
+      <section class="main-section" id="Quests">
+        <header>Quests</header>
+        <p>Questing in Old School RuneScape is a thrilling adventure full of challenges and rewards! Embark on epic quests that will lead you to exotic lands, unravel mysteries, and engage with a diverse cast of characters. Solve puzzles, defeat formidable foes, and make tough decisions that shape your journey. Each quest offers unique experiences and valuable rewards, from powerful equipment to unlocking new areas and abilities. </p>
+<p>Whether you're a brave hero seeking glory or a curious explorer on a quest for knowledge, OSRS quests will immerse you in captivating stories and unforgettable quests! So, grab your gear and get ready to uncover the secrets of Gielinor!</p>
+      </section>
+      <section class="main-section" id="Runescape_style_Python_mini_fishing_game">
+        <header>Runescape style Python mini fishing game</header>
+        <p>This is how to code a runescape themed mini fishing game in python!</p>
+        <p>First, important "random", then create your fish list!</p>
+        <code>import random
+
+fish_list = ["Shrimp", "Anchovies", "Lobster", "Tuna", "Swordfish", "Shark"]
+fishing_chance = [0.4, 0.3, 0.15, 0.08, 0.06, 0.01]</code>
+<p>Next define the probabilities of catching each fish (corresponding to the fish_list)</p>
+<code>fishing_chance = [0.4, 0.3, 0.15, 0.08, 0.06, 0.01]</code>
+<p>Define the fish() function to simulate fishing</p>
+<code>def fish():
+    print("You cast your line into the water...")
+    </code>
+    <p>Generate a random number between 0 and 1 to simulate the fishing outcome</p>
+    <code>catch = random.random()</code>
+    <p>Loop through the fish_list and check if the catch falls within the probability range for each fish</p>
+    <code>for i in range(len(fish_list)):
+        if catch < fishing_chance[i]:</code>
+        <p>If the catch falls within the probability range, print the caught fish and return from the function</p>
+        <code>print(f"You caught a {fish_list[i]}!")
+            return
+        else:
+            # If the catch does not fall within the probability range, subtract the probability of this fish from the catch
+            catch -= fishing_chance[i]</code>
+            <p>f the catch doesn't match any fish, it means nothing was caught, so print an appropriate message</p>
+            <code> print("You didn't catch anything this time.")
+</code>
+<p>Define the main() function to run the fishing game</p>
+<code>def main():
+    print("Welcome to Old School RuneScape Fishing!")
+    print("Try your luck and see what you can catch.")
+        while True:
+        print("\nOptions:")
+        print("1. Fish")
+        print("2. Quit")</code>
+
+<p>Get the player's choice using the input() function</p>
+<code>choice = input("Enter your choice (1 or 2): ")
+
+        if choice == "1":
+            # If the player chooses to fish, call the fish() function
+            fish()
+        elif choice == "2":</code>
+            <p> If the player chooses to quit, print a goodbye message and break out of the loop to end the game</p>
+           <code> print("Thanks for playing!")
+            break
+        else:</code>
+            
+          <p> If the player enters an invalid choice, print an error message and continue the loop to ask for a valid choice</p>
+           <code> print("Invalid choice. Please try again.")</code>
+
+<p>Check if the script is being run as the main program (not imported as a module)</p>
+<code>if __name__ == "__main__":</code>
+
+<p>If it is the main program, call the main() function to start the game
+    </p>
+<code>main()</code>
+        </section>
+    </main>
+  </body>
+</html>
